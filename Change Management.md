@@ -57,7 +57,7 @@ Any addition, modification or removal of an existing Configuration Item (CI) tha
         - Technical assessment: testing of change in lower environments etc
         - Business Impact
         - Risk/Impact assessment
-        - Role back plan
+        - Rollback plan
             - Restore original CI state if anything goes wrong while implementing change or exceeds `change implementation window`.
         - Change Tasks and assignees
             - Finalise tasks/steps in order to implement change and technical teams who will be performing each task
@@ -76,7 +76,7 @@ Any addition, modification or removal of an existing Configuration Item (CI) tha
         - closure of Change request
         - Documentation
     - Failed
-        - Role back the change
+        - Rollback the change
         - Raise problem ticket for Root cause analysis (RCA)
 
 **Change failures can occur due to:**
