@@ -1,92 +1,201 @@
-**Change:** 
+𝗖𝗵𝗮𝗻𝗴𝗲 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 𝗖𝗹𝗲𝗮𝗿𝗹𝘆 𝗘𝘅𝗽𝗹𝗮𝗶𝗻𝗲𝗱 🚀  
 
-Any addition, modification or removal of an existing Configuration Item (CI) that affects IT services.
+𝗧𝗼𝗽𝗶𝗰𝘀 𝗖𝗼𝘃𝗲𝗿𝗲𝗱:
 
-**Purpose of change management:**
+- What is Change?
 
-- Control the lifecycle of all changes
-- Minimise business impact of changes
-- Produce successful changes compared to change failures
+- Purpose of Change Management
 
-**Types of changes:**
+- Types of Changes
 
-- Standard change:
-    - low risk, frequent
-    - eg. Patching of the servers, windows updates.
-    - Approval: Pre-approved
-- Normal change:
-    - Well-planned change
-    - eg. Database migration, Replacement of component.
-    - Approval: `CAB` approval needed
-- Emergency change:
-    - Urgent change for high-priority incidents
-    - eg. Restoring a Downed Server
-    - Approval: `eCAB` approval needed
-- Retrospective change:
-    - Emergency change documented after implementation
-    - eg. Applying patch to mitigate security incident
-    - Approval: eCAB approval needed
+- High-Level Change Management Process
 
-**High-level change management process:**
+- 7 R's of Change Management
 
-- Request for change (RFC)
-- Change approval
-- Change implementation
-- Change validation/testing
-- Change closure
+- Detailed Change Management Process
 
-**The 7 Rs of change management:**
+- Change Failures
 
-- Who **Raised** the change
-- **Reason** for the change
-- **Return** expected from the change
-- **Risks** involved
-- **Resources** required:
-- **Responsible** person for implementation
-- **Relationship** to other changes
+- Interlock between Incident, Problem, and Change Management
 
-**Detailed change management process:**
 
-- Request for change (RFC)
-    - Raising Change request
-    - eg. new feature need to be added in a application
-- Prepare for change
-    - Participants: SMEs, `CI` owners, vendors, related technical teams)
-    - Agenda
-        - 7R’s assessment
-        - Technical assessment: testing of change in lower environments etc
-        - Business Impact
-        - Risk/Impact assessment
-        - Rollback plan
-            - Restore original CI state if anything goes wrong while implementing change or exceeds `change implementation window`.
-        - Change Tasks and assignees
-            - Finalise tasks/steps in order to implement change and technical teams who will be performing each task
-        - Change implementation window
-            - decide timeframe to implement change by considering impact on business (off  business hours, holidays, availability of resources etc)
-        - Vendor dependency
-        - Validate change
-        - Submit change for approval
-- CAB Meeting
-    - Participants: Key stakeholders
-    - Agenda: review changes and Get approval from CAB
-- Implementation
-    - Implement change in Change Implementation window
-- Validation and testing
-    - successful
-        - closure of Change request
-        - Documentation
-    - Failed
-        - Rollback the change
-        - Raise problem ticket for Root cause analysis (RCA)
 
-**Change failures can occur due to:**
+𝗖𝗵𝗮𝗻𝗴𝗲:  
 
-- Unsuccessful implementation
-- Change overrun (exceeding change implementation window)
-- Lack of proper backup plan
+Any addition, modification, or removal of an existing Configuration Item (CI) that affects IT services.
 
-**Interlock between Incident, Problem and Change Management:**
 
-- Failed changes can trigger incidents
-- Problems may be opened to investigate change failures
-- Root causes found/ in problem management or Incident management may require changes
+
+𝗣𝘂𝗿𝗽𝗼𝘀𝗲 𝗼𝗳 𝗖𝗵𝗮𝗻𝗴𝗲 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁:
+
+- Control the lifecycle of all changes.
+
+- Minimize business impact caused by changes.
+
+- Achieve successful changes compared to change failures.
+
+
+
+𝗧𝘆𝗽𝗲𝘀 𝗼𝗳 𝗖𝗵𝗮𝗻𝗴𝗲:  
+
+
+
+Standard Change:  
+
+  - Low-risk, frequent.  
+
+  - e.g., Patching servers, Windows updates.  
+
+  - Approval: Pre-approved.  
+
+
+
+Normal Change:  
+
+  - Well-planned change.  
+
+  - e.g., Database migration, replacement of a component.  
+
+  - Approval: CAB approval required.  
+
+
+
+Emergency Change:  
+
+  - Urgent change for high-priority incidents.  
+
+  - e.g., Restoring a downed server.  
+
+  - Approval: eCAB approval required.  
+
+
+
+Retrospective Change:  
+
+  - Emergency change documented after implementation.  
+
+  - e.g., Applying a patch to mitigate a security incident.  
+
+  - Approval: eCAB approval required.  
+
+
+
+𝗛𝗶𝗴𝗵-𝗟𝗲𝘃𝗲𝗹 𝗖𝗵𝗮𝗻𝗴𝗲 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 𝗣𝗿𝗼𝗰𝗲𝘀𝘀:  
+
+- Request for Change (RFC).  
+
+- Change Approval.  
+
+- Change Implementation.  
+
+- Change Validation/Testing.  
+
+- Change Closure.
+
+
+
+𝗧𝗵𝗲 𝟳 𝗥'𝘀 𝗼𝗳 𝗖𝗵𝗮𝗻𝗴𝗲 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁:  
+
+- Raised: Who Raised the change?  
+
+- Reason: What is the Reason for the change?  
+
+- Return: What Return is expected from the change?  
+
+- Risks: What are the Risks involved?  
+
+- Resources: What Resources are required?  
+
+- Responsible: Who is Responsible for the implementation?  
+
+- Relationship: What is the Relationship to other changes?
+
+
+
+𝗗𝗲𝘁𝗮𝗶𝗹𝗲𝗱 𝗖𝗵𝗮𝗻𝗴𝗲 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 𝗣𝗿𝗼𝗰𝗲𝘀𝘀:  
+
+
+
+𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗳𝗼𝗿 𝗖𝗵𝗮𝗻𝗴𝗲 (𝗥𝗙𝗖):  
+
+  - Raising a change request.  
+
+  - e.g., A new feature needs to be added to an application.
+
+
+
+𝗣𝗿𝗲𝗽𝗮𝗿𝗲 𝗳𝗼𝗿 𝗖𝗵𝗮𝗻𝗴𝗲:  
+
+  𝗣𝗮𝗿𝘁𝗶𝗰𝗶𝗽𝗮𝗻𝘁𝘀: SMEs, CI owners, vendors, related technical teams, etc.  
+
+  𝗔𝗴𝗲𝗻𝗱𝗮:  
+
+   - 7R’s assessment.  
+
+   - Technical assessment (e.g., testing of the change in lower environments).  
+
+   - Business impact assessment.  
+
+   - Risk/Impact assessment.  
+
+   - Rollback plan: Restoring the original CI state if anything goes wrong or if the change exceeds the implementation window.  
+
+   - Change tasks and assignees: Finalize tasks/steps required to implement the change and assign them to technical teams.  
+
+   - Change implementation window: Decide on a timeframe to implement the change, considering business impact (e.g., off-business hours, holidays, resource availability).  
+
+   - Vendor dependency.  
+
+   - Validate the change.  
+
+   - Submit the change for approval.
+
+
+
+𝗖𝗔𝗕 𝗠𝗲𝗲𝘁𝗶𝗻𝗴:  
+
+  - Participants: Key stakeholders.  
+
+  - Agenda: Review changes and get approval from CAB.
+
+
+
+𝗜𝗺𝗽𝗹𝗲𝗺𝗲𝗻𝘁𝗮𝘁𝗶𝗼𝗻:  
+
+  - Implement the change within the change implementation window.
+
+
+
+𝗩𝗮𝗹𝗶𝗱𝗮𝘁𝗶𝗼𝗻 𝗮𝗻𝗱 𝗧𝗲𝘀𝘁𝗶𝗻𝗴:  
+
+  Successful:  
+
+   - Close the change request.  
+
+   - Documentation.  
+
+  Failed:  
+
+   - Rollback the change.  
+
+   - Raise a problem ticket for root cause analysis (RCA).
+
+
+
+𝗖𝗵𝗮𝗻𝗴𝗲 𝗙𝗮𝗶𝗹𝘂𝗿𝗲𝘀 𝗖𝗮𝗻 𝗢𝗰𝗰𝘂𝗿 𝗗𝘂𝗲 𝗧𝗼:  
+
+- Unsuccessful implementation.  
+
+- Change overrun (exceeding the change implementation window).  
+
+- Lack of a proper backup plan.
+
+
+
+𝗜𝗻𝘁𝗲𝗿𝗹𝗼𝗰𝗸 𝗯𝗲𝘁𝘄𝗲𝗲𝗻 𝗜𝗻𝗰𝗶𝗱𝗲𝗻𝘁, 𝗣𝗿𝗼𝗯𝗹𝗲𝗺, 𝗮𝗻𝗱 𝗖𝗵𝗮𝗻𝗴𝗲 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁:  
+
+- Failed changes can trigger incidents.  
+
+- Problems may be opened to investigate change failures.  
+
+- Root causes found in problem or incident management may require changes.
